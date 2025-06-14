@@ -8,4 +8,5 @@ type AnalisePostBody struct {
     Produto            string    `json:"produto"`
     Cidade             string    `json:"cidade"`
     HorarioSolicitacao time.Time `json:"horarioSolicitacao"`
+    QuantidadeLocacoesAnteriores int     `json:"quantidadeLocacoesAnteriores"`
 }
